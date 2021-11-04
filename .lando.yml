@@ -1,0 +1,49 @@
+name: lando-standard
+recipe: drupal9
+config:
+  webroot: webroot
+  php: '7.4'
+  composer_version: 2-latest
+  composer:
+    consolidation/robo: ^3
+  via: nginx
+  xdebug: true
+  config:
+    php: lando-src/php.ini
+services:
+  appserver:
+    overrides:
+      environment:
+        PHP_IDE_CONFIG: "serverName=appserver"
+        LANDO_HOST_IP: "host.docker.internal"
+    run_as_root:
+      - apt-get update
+      - curl -sL https://deb.nodesource.com/setup_12.x | bash -
+      - apt-get install -y nodejs
+      - npm install gulp-cli gulp -g
+tooling:
+  robo:
+    service: appserver
+    description: Runs <robo> commmands
+    cmd: /var/www/.composer/vendor/bin/robo
+  npm:
+    service: appserver
+  node:
+    service: appserver
+  gulp:
+    service: appserver
+  xdebug-on:
+    service: appserver
+    description: Enable xdebug
+    cmd: "docker-php-ext-enable xdebug &&  pkill -o -USR2 php-fpm"
+    user: root
+  xdebug-off:
+    service: appserver
+    description: Disable xdebug
+    cmd: "rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini &&  pkill -o -USR2 php-fpm"
+    user: root
+env_file:
+  - .lando.env
+  - .secrets.env
+excludes:
+  - vendor

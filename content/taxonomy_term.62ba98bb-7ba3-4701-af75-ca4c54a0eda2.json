@@ -1,0 +1,71 @@
+{
+    "uuid": [
+        {
+            "value": "62ba98bb-7ba3-4701-af75-ca4c54a0eda2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "primary_unit_category",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "d3fa931c-99ce-4581-a912-630c7011d9e5"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2021-11-04T19:26:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "DOM"
+        }
+    ],
+    "description": [],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-11-04T19:26:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

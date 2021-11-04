@@ -1,0 +1,71 @@
+{
+    "uuid": [
+        {
+            "value": "3bdf2759-f722-4aa1-87f5-72d63905111d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "market",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "ce3005a4-67fe-48a0-b478-600aaf133768"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2021-11-04T19:24:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "AS"
+        }
+    ],
+    "description": [],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-11-04T19:25:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}
