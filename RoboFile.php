@@ -98,7 +98,7 @@ class RoboFile extends Tasks {
     $this->say("Initializing new project...");
     $collection = $this->collectionBuilder();
     $collection
-      ->taskExec('drush sset -y system.site:uuid 2551a32d-0661-403c-81ad-93dbb48ec675')
+      ->taskExec('drush cset -y system.site uuid 2551a32d-0661-403c-81ad-93dbb48ec675')
       ->taskExec('drush cr')
       ->taskExec('drush cim -y');
     $this->say("Project Stuff Exec'd");
