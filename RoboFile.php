@@ -77,9 +77,9 @@ class RoboFile extends Tasks {
       ->taskExec('drush pm:enable -y admin_toolbar')
       ->taskExec('drush pm:enable -y admin_toolbar_tools')
       ->taskExec('drush cr')
-      //->taskExec('drush sset -y system.site uuid 98827f51-ab2d-46e3-a118-65daac1e9d25')
-      ->taskExec('echo \'#$settings["config_sync_directory"] = "../config/sync";\' >> webroot/sites/default/default.settings.php')
-
+      ->taskExec('echo \'$settings["config_sync_directory"] = "../config/sync";\' >> webroot/sites/default/settings.php')
+      ->taskExec('drush sset -y system.site uuid dc010924-f00a-43c7-9a24-62154a0bc33f')
+      ->taskExec('drush cim -y')
       ->taskExec($this->fixPerms());
     $this->say("New project initialized.");
 
