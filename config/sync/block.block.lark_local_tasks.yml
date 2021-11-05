@@ -1,0 +1,22 @@
+uuid: 2229d48c-e4e2-4565-85a5-ac75760d8195
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lark
+_core:
+  default_config_hash: HeVcE7VqU3ztlRC43Ljhx0Gm7Me35woxPfSRuZ5vveE
+id: lark_local_tasks
+theme: lark
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

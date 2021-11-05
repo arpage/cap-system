@@ -1,0 +1,22 @@
+uuid: e742f162-49b8-4697-8c1e-78da689a6251
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lark
+_core:
+  default_config_hash: gfsUNimlH0qBYpOXe3ah0gedK-hoEHabX1hl4WFIEfk
+id: lark_content
+theme: lark
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

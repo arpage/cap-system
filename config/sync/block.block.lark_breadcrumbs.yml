@@ -1,0 +1,22 @@
+uuid: eb6acca3-e13b-4df4-bae1-86a94b4fc4a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lark
+_core:
+  default_config_hash: WZDtVEFDNQEJSAFI8Y-LrVuKPJiE8aKJWo7dMM2Z2lU
+id: lark_breadcrumbs
+theme: lark
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
