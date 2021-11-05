@@ -35,7 +35,8 @@ class RoboFile extends Tasks {
     $LOCAL_MYSQL_PASSWORD = getenv('DRUPAL_DB_PASS');
     $LOCAL_MYSQL_DATABASE = getenv('DRUPAL_DB_NAME');
     $LOCAL_MYSQL_PORT = getenv('DRUPAL_DB_PORT');
-    $LOCAL_CONFIG_DIR = getenv('DRUPAL_CONFIG_DIR');
+    $LOCAL_CONFIG_DIR = getenv('EMPTY_DRUPAL_CONFIG_DIR');
+    $POST_CONFIG_DIR = getenv('POST_DRUPAL_CONFIG_DIR');
 
     $this->say("Initializing new project...");
     $collection = $this->collectionBuilder();
@@ -77,11 +78,30 @@ class RoboFile extends Tasks {
       ->taskExec('drush pm:enable -y admin_toolbar')
       ->taskExec('drush pm:enable -y admin_toolbar_tools')
       ->taskExec('drush cr')
-      ->taskExec('echo \'$settings["config_sync_directory"] = "../config/sync";\' >> webroot/sites/default/settings.php')
-      ->taskExec('drush sset -y system.site uuid dc010924-f00a-43c7-9a24-62154a0bc33f')
-      ->taskExec('drush cim -y')
+      ->taskExec('chmod ug+w webroot/sites/default/settings.php')
+      ->taskExec('echo \'$settings["config_sync_directory"] = "' . $POST_CONFIG_DIR . '";\' >> webroot/sites/default/settings.php')
+      ->taskExec('chmod ug-w webroot/sites/default/settings.php')
+      ->taskExec('ls -l webroot/sites/default')
+      //->taskExec('drush sset -y system.site:uuid 2551a32d-0661-403c-81ad-93dbb48ec675')
+      ->taskExec('drush cr')
+      //->taskExec('drush cim -y')
+      //->taskExec('drush cr')
       ->taskExec($this->fixPerms());
     $this->say("New project initialized.");
+
+    return $collection;
+  }
+
+  public function projectStuff() {
+    $POST_CONFIG_DIR = getenv('POST_DRUPAL_CONFIG_DIR');
+
+    $this->say("Initializing new project...");
+    $collection = $this->collectionBuilder();
+    $collection
+      ->taskExec('drush sset -y system.site:uuid 2551a32d-0661-403c-81ad-93dbb48ec675')
+      ->taskExec('drush cr')
+      ->taskExec('drush cim -y');
+    $this->say("Project Stuff Exec'd");
 
     return $collection;
   }
