@@ -82,26 +82,13 @@ class RoboFile extends Tasks {
       ->taskExec('echo \'$settings["config_sync_directory"] = "' . $POST_CONFIG_DIR . '";\' >> webroot/sites/default/settings.php')
       ->taskExec('chmod ug-w webroot/sites/default/settings.php')
       ->taskExec('ls -l webroot/sites/default')
-      //->taskExec('drush sset -y system.site:uuid 2551a32d-0661-403c-81ad-93dbb48ec675')
       ->taskExec('drush cr')
-      //->taskExec('drush cim -y')
-      //->taskExec('drush cr')
-      ->taskExec($this->fixPerms());
-    $this->say("New project initialized.");
-
-    return $collection;
-  }
-
-  public function projectStuff() {
-    $POST_CONFIG_DIR = getenv('POST_DRUPAL_CONFIG_DIR');
-
-    $this->say("Initializing new project...");
-    $collection = $this->collectionBuilder();
-    $collection
       ->taskExec('drush cset -y system.site uuid 2551a32d-0661-403c-81ad-93dbb48ec675')
       ->taskExec('drush cr')
-      ->taskExec('drush cim -y');
-    $this->say("Project Stuff Exec'd");
+      ->taskExec('drush cim -y')
+      ->taskExec('drush cr')
+      ->taskExec($this->fixPerms());
+    $this->say("New project initialized.");
 
     return $collection;
   }
