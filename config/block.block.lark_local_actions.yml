@@ -1,0 +1,27 @@
+uuid: 16581572-abfb-47ac-baf6-1289c44d99e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lark
+_core:
+  default_config_hash: FYHL_7vWdYI4KtwSmIDv9jHOb6_ro4Naly1AOc11tqE
+id: lark_local_actions
+theme: lark
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /admin/content
+    negate: true
+    context_mapping: {  }
