@@ -1,0 +1,26 @@
+uuid: 4e3e54b8-81d3-42c1-a381-3fda961c80a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.request_for_test.field_market
+    - field.field.node.request_for_test.field_primary_category
+    - field.field.node.request_for_test.field_request_status
+    - node.type.request_for_test
+  module:
+    - user
+id: node.request_for_test.teaser
+targetEntityType: node
+bundle: request_for_test
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_market: true
+  field_primary_category: true
+  field_request_status: true

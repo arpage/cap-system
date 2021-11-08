@@ -32,7 +32,7 @@
     ],
     "timezone": [
         {
-            "value": "UTC"
+            "value": "America\/New_York"
         }
     ],
     "status": [
@@ -48,7 +48,7 @@
     ],
     "changed": [
         {
-            "value": "2021-11-08T14:20:28+00:00",
+            "value": "2021-11-08T15:47:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

@@ -96,6 +96,20 @@ class RoboFile extends Tasks {
   /**
    * Local Site install.
    */
+  public function tomeImport() {
+    $this->say("Tome content import started...");
+    $collection = $this->collectionBuilder();
+    $collection->taskComposerInstall()->ignorePlatformRequirements()->noInteraction()
+      ->taskExec('drush tome:import -y')
+      ->taskExec('drush cr');
+    $this->say("Tome content import completed.");
+
+    return $collection;
+  }
+
+  /**
+   * Local Site install.
+   */
   public function localInstall() {
     $LOCAL_MYSQL_USER = getenv('MYSQL_USER');
     $LOCAL_MYSQL_PASSWORD = getenv('MYSQL_PASSWORD');

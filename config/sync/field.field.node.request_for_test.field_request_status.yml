@@ -1,0 +1,29 @@
+uuid: d6db837a-2ee3-40bc-b374-846fc1430187
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_request_status
+    - node.type.request_for_test
+    - taxonomy.vocabulary.request_processing_status
+id: node.request_for_test.field_request_status
+field_name: field_request_status
+entity_type: node
+bundle: request_for_test
+label: 'Request Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      request_processing_status: request_processing_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

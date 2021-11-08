@@ -1,0 +1,29 @@
+uuid: 8586fa6f-d25a-4d25-9c9b-9aac8d2897d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_category
+    - node.type.request_for_test
+    - taxonomy.vocabulary.primary_unit_category
+id: node.request_for_test.field_primary_category
+field_name: field_primary_category
+entity_type: node
+bundle: request_for_test
+label: 'Primary Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      primary_unit_category: primary_unit_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
