@@ -1,0 +1,22 @@
+uuid: 87e208be-76ae-46b6-a1f2-10cc77e906e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.capinfo
+    - field.field.block_content.capinfo.body
+  module:
+    - text
+id: block_content.capinfo.default
+targetEntityType: block_content
+bundle: capinfo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

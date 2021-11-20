@@ -1,0 +1,83 @@
+{
+    "uuid": [
+        {
+            "value": "47b54563-dc48-4854-bae7-21c7b51742d2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "47c475e9-ed60-4dd5-8b17-fbdda824544c"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-11-20T16:46:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "de6faff2-dc47-40b0-a738-8ea6e39f58c1"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "de6faff2-dc47-40b0-a738-8ea6e39f58c1"
+        }
+    ],
+    "title": [
+        {
+            "value": "Contact CAP"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-11-20T16:44:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-11-20T16:46:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "\/contact",
+            "langcode": "en"
+        }
+    ],
+    "body": []
+}

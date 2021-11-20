@@ -1,0 +1,8 @@
+uuid: cae0856d-99a3-4add-bc5a-8e472623dc8b
+langcode: en
+status: true
+dependencies: {  }
+id: capinfo
+label: CAPInfo
+revision: 0
+description: ''

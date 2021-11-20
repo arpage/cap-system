@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "6abe63c4-43d0-4114-aab2-147f3407a4b7"
+            "value": "06a33dfe-625d-4461-aff4-79654c4e19da"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2021-11-08T14:54:40+00:00",
+            "value": "2021-11-20T16:25:19+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -31,18 +31,18 @@
     ],
     "name": [
         {
-            "value": "RU"
+            "value": "AF"
         }
     ],
     "description": [
         {
-            "value": "Russia",
+            "value": "Africa",
             "format": "plain_text"
         }
     ],
     "weight": [
         {
-            "value": 7
+            "value": 5
         }
     ],
     "parent": [

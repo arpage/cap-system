@@ -1,0 +1,8 @@
+uuid: 76f5bafb-2edb-4ef1-a1af-79753fdfb9db
+langcode: en
+status: true
+dependencies: {  }
+id: department-navigation
+label: 'Department Navigation'
+description: 'CAPS Department Directory'
+locked: false

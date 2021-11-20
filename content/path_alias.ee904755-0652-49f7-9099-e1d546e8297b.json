@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "ee904755-0652-49f7-9099-e1d546e8297b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/8afde7ac-fd0a-47cc-8446-599325e66b33"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/cap-systems"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

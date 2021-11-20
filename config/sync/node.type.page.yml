@@ -1,0 +1,19 @@
+uuid: 47c475e9-ed60-4dd5-8b17-fbdda824544c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - department-navigation
+      - main
+    parent: 'main:'
+name: Page
+type: page
+description: 'A static landing page'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

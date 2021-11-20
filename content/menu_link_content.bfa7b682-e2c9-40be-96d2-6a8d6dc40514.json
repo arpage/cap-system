@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "8ea81846-1b4e-47cf-8112-d13f87a57574"
+            "value": "bfa7b682-e2c9-40be-96d2-6a8d6dc40514"
         }
     ],
     "langcode": [
@@ -9,35 +9,50 @@
             "value": "en"
         }
     ],
-    "vid": [
+    "bundle": [
         {
-            "target_id": "primary_unit_market",
-            "target_type": "taxonomy_vocabulary",
-            "target_uuid": "8b9f6e14-aaca-4639-ac80-4c2e1dceafd3"
+            "value": "menu_link_content"
         }
     ],
     "revision_created": [
         {
-            "value": "2021-11-08T14:54:11+00:00",
+            "value": "2021-11-20T17:22:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "revision_user": [],
     "revision_log_message": [],
-    "status": [
+    "enabled": [
         {
             "value": true
         }
     ],
-    "name": [
+    "title": [
         {
-            "value": "NA"
+            "value": "Testing"
         }
     ],
-    "description": [
+    "description": [],
+    "menu_name": [
         {
-            "value": "North America (Canada and the United States)",
-            "format": "plain_text"
+            "value": "department-navigation"
+        }
+    ],
+    "link": [
+        {
+            "uri": "entity:node\/7a574346-3984-42e1-972d-fad5600f7bb4",
+            "title": null,
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
         }
     ],
     "weight": [
@@ -45,14 +60,15 @@
             "value": 0
         }
     ],
-    "parent": [
+    "expanded": [
         {
-            "target_id": null
+            "value": false
         }
     ],
+    "parent": [],
     "changed": [
         {
-            "value": "2021-11-20T16:26:22+00:00",
+            "value": "2021-11-20T17:22:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -64,13 +80,6 @@
     "revision_translation_affected": [
         {
             "value": true
-        }
-    ],
-    "path": [
-        {
-            "alias": null,
-            "pid": null,
-            "langcode": "en"
         }
     ]
 }

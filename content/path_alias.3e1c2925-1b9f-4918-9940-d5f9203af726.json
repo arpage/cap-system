@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "3e1c2925-1b9f-4918-9940-d5f9203af726"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/8a378b7c-459e-44f9-96b8-ab5bc87694e5"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/markets"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+uuid: 7f76a945-3d07-44e1-a414-2497f641a3b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:capinfo:08b7ce2d-b554-4e27-8ab3-3018f879bf48'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: capstats
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:08b7ce2d-b554-4e27-8ab3-3018f879bf48'
+settings:
+  id: 'block_content:08b7ce2d-b554-4e27-8ab3-3018f879bf48'
+  label: CAPStats
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

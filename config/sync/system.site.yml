@@ -1,11 +1,11 @@
 uuid: 2551a32d-0661-403c-81ad-93dbb48ec675
-name: 'Drush Site-Install'
-mail: admin@example.com
-slogan: ''
+name: 'CAP Systems'
+mail: mark.viitek@mobomo.com
+slogan: 'CAP Assessment Processing Systems'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/4
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "59aac55e-3272-4b7e-870a-859c98485438"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/9f53575c-c4fa-48c4-9812-176c54c87787"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/processes"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "uuid": [
+        {
+            "value": "8afde7ac-fd0a-47cc-8446-599325e66b33"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "47c475e9-ed60-4dd5-8b17-fbdda824544c"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-11-20T16:53:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "de6faff2-dc47-40b0-a738-8ea6e39f58c1"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "de6faff2-dc47-40b0-a738-8ea6e39f58c1"
+        }
+    ],
+    "title": [
+        {
+            "value": "CAP Systems"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-11-20T16:53:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-11-20T16:53:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/cap-systems",
+            "langcode": "en"
+        }
+    ],
+    "body": []
+}
