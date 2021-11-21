@@ -1,0 +1,7 @@
+caps-global:
+    version: 1.x
+    js:
+      js/caps.js
+    css:
+      theme:
+        css/caps.css

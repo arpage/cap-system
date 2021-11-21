@@ -1,0 +1,21 @@
+uuid: 98617e52-9123-4ed5-bbb0-9c233f35a5bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_market
+    - node.type.page
+id: node.page.field_market
+field_name: field_market
+entity_type: node
+bundle: page
+label: Market
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

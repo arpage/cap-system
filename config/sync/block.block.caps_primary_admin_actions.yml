@@ -1,0 +1,20 @@
+uuid: 6fca7bd2-6720-43bb-80dd-134abdbb046c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - caps
+_core:
+  default_config_hash: sBMSSrWtP58IZaz1i3-MJ9yq_y32w1nc7N5DZJmt-4M
+id: caps_primary_admin_actions
+theme: caps
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

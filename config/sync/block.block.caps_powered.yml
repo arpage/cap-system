@@ -1,0 +1,22 @@
+uuid: 992db144-2bf5-4e63-8a4e-574f148cc6db
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - caps
+_core:
+  default_config_hash: 5kL_iZM_xia3Z8bgsyiZgQphxMGhI8gt2HYo8r5Z7OE
+id: caps_powered
+theme: caps
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

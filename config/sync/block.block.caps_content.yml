@@ -1,0 +1,22 @@
+uuid: e20640a4-f77a-46e2-b97a-eb89ddd0ad0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - caps
+_core:
+  default_config_hash: BL6Gcw5Us0zai1ADadlNYLxlEblMedc_3C3lF0PjtCE
+id: caps_content
+theme: caps
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

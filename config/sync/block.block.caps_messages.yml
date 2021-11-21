@@ -1,0 +1,22 @@
+uuid: eed86201-b0f2-418b-ad61-f04b3785b67f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - caps
+_core:
+  default_config_hash: KfyaTPRJEcAyy2e5AxEfWQnuHcn4WrfvcWek7lSmHZQ
+id: caps_messages
+theme: caps
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

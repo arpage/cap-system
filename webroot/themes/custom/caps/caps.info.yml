@@ -1,0 +1,12 @@
+name: CAP
+type: theme
+description:  Basic theme for CAPs
+package: Other
+core_version_requirement:  ^8 || ^9
+libraries:
+  - caps/caps-global
+base theme: false
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

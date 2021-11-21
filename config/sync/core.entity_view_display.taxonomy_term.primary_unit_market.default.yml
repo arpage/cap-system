@@ -1,0 +1,21 @@
+uuid: 437f2745-0de3-4ee9-99fd-33694e616db1
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.primary_unit_market
+  module:
+    - text
+id: taxonomy_term.primary_unit_market.default
+targetEntityType: taxonomy_term
+bundle: primary_unit_market
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

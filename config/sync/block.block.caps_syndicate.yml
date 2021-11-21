@@ -1,0 +1,23 @@
+uuid: 8f4a5ef0-1ff0-42ee-af69-fbb27818b175
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - caps
+_core:
+  default_config_hash: jGkBUnwRXYacHWTR8hjjwn_a_PRM-Xj_xSHoB0WIfEo
+id: caps_syndicate
+theme: caps
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  provider: node
+  label_display: '0'
+  block_count: 10
+visibility: {  }

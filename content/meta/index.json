@@ -80,5 +80,14 @@
     ],
     "menu_link_content.5678bb7d-4969-4d47-959f-028839f9e8b0": [
         "node.da4bed56-01e9-4af5-94ff-03b42677a25a"
+    ],
+    "node.2b4c5125-aa1c-42f9-8861-35ab078e71c4": [
+        "user.de6faff2-dc47-40b0-a738-8ea6e39f58c1",
+        "taxonomy_term.8ea81846-1b4e-47cf-8112-d13f87a57574",
+        "taxonomy_term.b2b8fc8c-44aa-40fa-8c73-4bf49dc58116",
+        "taxonomy_term.374bc456-ad2a-4dab-a395-a5d3ea82efa5"
+    ],
+    "path_alias.eab6f911-327d-428b-b15d-73961cc38863": [
+        "node.2b4c5125-aa1c-42f9-8861-35ab078e71c4"
     ]
 }

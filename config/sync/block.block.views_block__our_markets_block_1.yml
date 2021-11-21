@@ -1,0 +1,32 @@
+uuid: 6655c83e-fe2f-4b8f-8924-19881fa41188
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_markets
+  module:
+    - node
+    - views
+  theme:
+    - olivero
+id: views_block__our_markets_block_1
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'views_block:our_markets-block_1'
+settings:
+  id: 'views_block:our_markets-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

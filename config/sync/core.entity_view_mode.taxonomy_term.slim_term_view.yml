@@ -1,0 +1,10 @@
+uuid: 33c6744f-c349-4984-845d-dae7423d00e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.slim_term_view
+label: 'Slim Term View'
+targetEntityType: taxonomy_term
+cache: true

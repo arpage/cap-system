@@ -1,0 +1,22 @@
+uuid: 6d925e86-86b9-49c7-bf3f-c42dc516263b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - caps
+_core:
+  default_config_hash: XMsRP1YhWAcorbrFWZglMYJ_SgWHyF3fyCh5vDXaUN4
+id: caps_breadcrumbs
+theme: caps
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

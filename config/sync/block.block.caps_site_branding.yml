@@ -1,0 +1,25 @@
+uuid: 81db2ee9-3424-4f29-aeeb-8703f6f24ce6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - caps
+_core:
+  default_config_hash: sYjScJ6uW1UvGZ-G3AtTcZmPoOiQJtndHqamm8FAFgU
+id: caps_site_branding
+theme: caps
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

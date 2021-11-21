@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.taxonomy_term.slim_term_view
     - taxonomy.vocabulary.primary_unit_market
   module:
     - taxonomy
@@ -55,6 +56,9 @@ display:
         type: grid
       row:
         type: 'entity:taxonomy_term'
+        options:
+          relationship: none
+          view_mode: slim_term_view
       fields:
         name:
           id: name

@@ -1,0 +1,14 @@
+uuid: a9e651a5-4059-425d-a96c-39b008fbb7bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.slim_term_view
+    - taxonomy.vocabulary.primary_unit_market
+id: taxonomy_term.primary_unit_market.slim_term_view
+targetEntityType: taxonomy_term
+bundle: primary_unit_market
+mode: slim_term_view
+content: {  }
+hidden:
+  description: true

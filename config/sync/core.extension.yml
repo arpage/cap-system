@@ -5,6 +5,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  cap_global: 0
   ckeditor: 0
   config: 0
   config_ignore: 0
@@ -51,6 +52,7 @@ theme:
   stark: 0
   lark: 0
   olivero: 0
+  caps: 0
 profile: minimal
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
